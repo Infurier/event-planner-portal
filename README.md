@@ -6,7 +6,11 @@ A full-stack web application for event planning, featuring a React/Vite frontend
 
 Before you begin, ensure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
+  - *macOS:* Install via Homebrew: `brew install node`
+  - *Linux (Ubuntu/Debian):* `sudo apt install nodejs npm`
 - [MySQL](https://www.mysql.com/) (Running locally or accessible remotely)
+  - *macOS:* Install via Homebrew: `brew install mysql`
+  - *Linux (Ubuntu/Debian):* `sudo apt install mysql-server`
 
 ## Project Structure
 
@@ -15,7 +19,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Setup Instructions
 
-Follow these steps to run the application on any computer:
+The following commands are cross-platform and will work exactly the same on **Windows, macOS, and Linux** terminals (like Bash, Zsh, or PowerShell). Follow these steps to run the application locally:
 
 ### 1. Database Setup
 1. Create a MySQL database for the project (e.g., `event_planner_db`).
